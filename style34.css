@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-poppins: Poppins;
+  
+    /* font sizes */
+    --font-size-11xl: 30px;
+    --font-size-lg: 18px;
+    --font-size-5xl: 24px;
+    --font-size-base: 16px;
+  
+    /* Colors */
+    --neutrales-neutral-100: #fff;
+    --color-black: #000;
+  
+    /* Gaps */
+    --gap-19xl: 38px;
+    --gap-lgi: 19px;
+  
+    /* Paddings */
+    --padding-base: 16px;
+    --padding-10xs: 3px;}

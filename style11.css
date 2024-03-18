@@ -1,0 +1,276 @@
+
+
+.home-teams-privacy {
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+    white-space: pre-wrap;
+  }
+  .home-teams-privacy-policy-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .loginsignup {
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+    margin-top: 10px;
+    
+  }
+  /* CSS */
+  .button-9 {
+    appearance: button;
+    backface-visibility: hidden;
+    background-color:    #c09dfd;
+    border-radius: 10px;
+    border-width: 0;
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+    font-size: 100%;
+    height: 40px;
+    line-height: 1.15;
+    margin: 12px 0 0;
+    outline: none;
+    overflow: hidden;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transform: translateZ(0);
+    transition: all .2s,box-shadow .08s ease-in;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100%;
+  }
+  
+  .button-9:disabled {
+    cursor: default;
+  }
+  
+  .button-9:focus {
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+  }
+  .loginsignup-wrapper {
+    border-radius: 8px;
+    background-color: var(--color-dodgerblue);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 32px;
+    margin-top: 10px;
+    height: 15px;
+    width: 80px;
+    
+  }
+  @keyframes slideInFromTop {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .frame-parent,
+  .frame-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    color: #fff;
+    animation: slideInFromTop 0.5s ease; 
+  }
+  
+  .frame-parent {
+    text-decoration: none;
+    position: absolute;
+    top: 40px;
+    left: 322px;
+    width: 958px;
+    justify-content: space-between;
+    color: inherit;
+  }
+  
+  
+  .find {
+    color: var(--color-gray-100);
+  }
+  .book {
+    color: #161717;
+  }
+  .easily {
+    color: var(--color-dodgerblue);
+  }
+  .find-book-and-rent-a-car-easi {
+    margin: 0;
+  }
+  .with-vitians {
+    margin: 0;
+    color: var(--color-dodgerblue);
+  }
+  @keyframes slideInFromLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .find-book-and-rent-a-car-easi-wrapper {
+    animation: slideInFromLeft 0.5s ease; /* applying the animation to the wrapper class with a duration of 0.5 seconds and an easing effect */
+  }
+  .find-book-and-container,
+.find-book-and-rent-a-car-easi-wrapper {
+  transition: all 0.3s ease; /* adding transition to both classes with a duration of 0.3 seconds and an easing effect */
+}
+  .find-book-and-container {
+    width: 390px;
+    position: relative;
+    line-height: 100%;
+    font-weight: 600;
+    display: inline-block;
+  }
+  .find-book-and-rent-a-car-easi-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 408px;
+    height: 157px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .group-child {
+    position: absolute;
+    top: 70.6px;
+    left: 231.1px;
+    width: 125px;
+    height: 45.5px;
+    object-fit: contain;
+  }
+  .frame-group {
+    position: absolute;
+    top: 420px;
+    left: 122px;
+    width: 408px;
+    height: 157px;
+    font-size: 48px;
+    color: var(--color-gray-100);
+  }
+  @keyframes slideInFromRight {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  .image-15-icon {
+    animation: slideInFromRight 0.8s ease; /* applying the animation to the class with a duration of 0.5 seconds and an easing effect */
+  }
+  .image-15-icon {
+    transition: all 0.8s ease; /* adding a transition to the class for all properties with a duration of 0.3 seconds and an easing effect */
+  }
+  .image-15-icon {
+    position: absolute;
+    top: 202px;
+    left: 726px;
+    width: 660px;
+    height: 375px;
+    object-fit: cover;
+  }
+  @keyframes slideInFromTop {
+    0% {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .cab-clique {
+    animation: slideInFromTop 0.8s ease; 
+  }
+  .cab-clique {
+    transition: all 0.3s ease; /* adding a transition to the class for all properties with a duration of 0.3 seconds and an easing effect */
+  }
+  
+  
+  .cab-clique {
+    position: absolute;
+    top: 183px;
+    left: 122px;
+    font-size: 96px;
+    line-height: 100%;
+    font-family: var(--font-carter-one);
+    color:rgb(19, 18, 18);
+    display: inline-block;
+    width: 372px;
+    height: 189px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    display: inline;
+    padding: 0;
+    margin-left: 900px;
+    text-decoration: none;
+  }
+  ul li{
+    display: inline;
+    margin:20px;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+    font-weight: 500;
+    color: #161717;
+  }
+  .a1{
+    text-decoration: none;
+    color: #161717;
+  }
+ul li :hover{
+    
+  
+    text-decoration: underline ;
+  }
+  .header {
+    margin: 0;
+    width: 1452px;
+    position: relative;
+   
+    height: 800px;
+    overflow: hidden;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: #484848;
+    font-family: var(--font-poppins);
+  }
+  .landing-page {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+ 
+  
